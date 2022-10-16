@@ -24,12 +24,15 @@ importers:
 
   packages/core:
     specifiers:
-      '@velvet-tool/shared': workspace:^1.0.0
+      '@velvet-tool/shared': workspace:*
       typescript: ^4.8.4
     dependencies:
       '@velvet-tool/shared': link:../shared
     devDependencies:
       typescript: 4.8.4
+
+  packages/shared:
+    specifiers: {}
 
 packages:
 
