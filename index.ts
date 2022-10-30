@@ -6,11 +6,10 @@ export default defineComponent({
   // template:'<button>MyButton</button>'
 
   render() {
-     return h('button', null, 'MyButton');
+    return h('button', null, 'MyButton');
   },
 });
 
-const fn = () => {
-  console.log(dddd, 1111)
-}
-
+// const fn = () => {
+//   console.log(dddd, 1111)
+// }
