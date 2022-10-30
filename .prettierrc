@@ -7,7 +7,6 @@
   "useTabs": false,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "es5",
   "endOfLine": "auto",
-  "proseWrap": "preserve"
+  "trailingComma": "all"
 }
