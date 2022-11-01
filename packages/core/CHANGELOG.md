@@ -1,5 +1,14 @@
 # @velvet-tool/core
 
+## 1.0.4
+
+### Patch Changes
+
+- fix: test
+
+- Updated dependencies []:
+  - @velvet-tool/shared@1.0.3
+
 ## 1.0.3
 
 ### Patch Changes

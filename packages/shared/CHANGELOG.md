@@ -1,5 +1,11 @@
 # @velvet-tool/shared
 
+## 1.0.3
+
+### Patch Changes
+
+- fix: test
+
 ## 1.0.2
 
 ### Patch Changes
