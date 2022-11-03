@@ -20,22 +20,9 @@
       "@velvet-tool/shared": ["./packages/shared/index.ts"],
       "@velvet-tool/shared/*": ["./packages/shared/*"],
       "@velvet-tool/core": ["./packages/core/index.ts"],
-      "@velvet-tool/core/*": ["./packages/core/*"],
-    },
+      "@velvet-tool/core/*": ["./packages/core/*"]
+    }
   },
-  "include": [
-    "packages",
-    "packages/.vitepress/components/*.vue",
-    "packages/.vitepress/*.ts",
-    "meta",
-    "vitest.config.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/**/*.stories.tsx",
-    "**/**/*.md",
-    "**/dist",
-    "packages/.test",
-    "packages/_docs"
-  ]
+  "include": ["packages", "packages/.vitepress/components/*.vue", "packages/.vitepress/*.ts", "meta", "vitest.config.ts"],
+  "exclude": ["node_modules", "**/**/*.stories.tsx", "**/**/*.md", "**/dist", "packages/.test", "packages/_docs"]
 }
