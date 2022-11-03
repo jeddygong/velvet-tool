@@ -2,14 +2,25 @@
   "name": "@velvet-tool/shared",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "author": "Jeddy <https://github.com/jeddygong>",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    },
+    "./*": "./*"
+  },
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "unpkg": "./index.iife.min.js",
+  "types": "./index.d.ts",
   "devDependencies": {
-    "typescript": "^4.8.4"
+    "@velvet-tool/shared": "workspace:*"
   }
 }
