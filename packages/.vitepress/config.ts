@@ -8,10 +8,10 @@ export default {
     logo: '/logo.png',
     lastUpdated: true,
     lastUpdatedText: '最后修改时间',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/jeddygong/velvet' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/jeddygong/velvet-tool' }],
     editLinks: true,
     editLink: {
-      pattern: 'https://github.com/jeddygong/velvet/main/docs/:path',
+      pattern: 'https://github.com/jeddygong/velvet-tool/main/docs/:path',
       text: '为此页提供修改建议',
     },
     nav: [

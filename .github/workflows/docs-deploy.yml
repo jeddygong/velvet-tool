@@ -36,11 +36,6 @@ jobs:
           DOC_ENV: preview
           NODE_OPTIONS: --max-old-space-size=4096
 
-      # - name: Deploy vitepress site
-      #   with:
-      #     branch: gh-page
-      #     folder: docs
-
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages

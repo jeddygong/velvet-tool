@@ -2,3 +2,6 @@
 .changeset/
 CHANGELOG.md
 !.vitepress/
+dist
+node_modules
+coverage
