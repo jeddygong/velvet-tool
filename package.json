@@ -12,7 +12,9 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "docs:dev": "vitepress dev packages",
+    "docs:build": "vitepress build packages"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +35,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4",
+    "vitepress": "1.0.0-alpha.26",
     "vitest": "^0.24.5"
   },
   "lint-staged": {

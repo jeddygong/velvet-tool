@@ -1,3 +1,4 @@
 *.yaml
 .changeset/
 CHANGELOG.md
+!.vitepress/
