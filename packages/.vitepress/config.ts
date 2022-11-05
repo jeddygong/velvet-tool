@@ -1,7 +1,7 @@
 import { DefaultSideBar } from './sideBar';
 
 export default {
-  base: '/velvet/',
+  base: '/velvet-tool/',
   title: 'velvet',
   lang: 'zh-CN',
   themeConfig: {
