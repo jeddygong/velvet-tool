@@ -1,6 +1,6 @@
 {
   "name": "@velvet-tool/shared",
-  "version": "1.0.3",
+  "version": "1.0.5-alpha.2",
   "description": "",
   "author": "Jeddy <https://github.com/jeddygong>",
   "license": "MIT",
@@ -15,16 +15,15 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "sideEffects": false,
   "engines": {
     "node": ">=14",
     "pnpm": ">=7.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "devDependencies": {
-    "@velvet-tool/core": "workspace:*"
-  }
+  "keywords": []
 }

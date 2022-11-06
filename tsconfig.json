@@ -23,5 +23,5 @@
     }
   },
   "include": ["packages", "packages/.vitepress/components/*.vue", "packages/.vitepress/*.ts", "meta", "vitest.config.ts", "*.d.ts"],
-  "exclude": ["node_modules",  "**/**/*.md", "**/dist", "packages/.test", "packages/_docs", "dist"]
+  "exclude": ["node_modules", "**/**/*.md", "**/dist", "packages/.test", "packages/_docs", "dist"]
 }

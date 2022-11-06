@@ -1,5 +1,11 @@
 # @velvet-tool/shared
 
+## 1.0.4
+
+### Patch Changes
+
+- feat(build): 新增 tsup 打包构建
+
 ## 1.0.3
 
 ### Patch Changes
