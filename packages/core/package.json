@@ -4,15 +4,17 @@
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "unpkg": "./dist/index.iife.min.js",
+  "unpkg": "./dist/index.iife.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.js",
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./*": "./*"
   },
+  "sideEffects": false,
   "engines": {
     "node": ">=14",
     "pnpm": ">=7.0.0"
@@ -23,9 +25,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.8.4"
-  },
   "dependencies": {
     "@velvet-tool/shared": "workspace:*"
   }

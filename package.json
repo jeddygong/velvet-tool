@@ -6,6 +6,13 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
+    "ts": "tsup --watch",
+    "dev:core": "pnpm -C packages/core dev",
+    "build:core": "pnpm -C packages/core build",
+    "dev:shared": "pnpm -C packages/shared dev",
+    "build:shared": "pnpm -C packages/shared build",
+    "dev": "pnpm dev:shared && pnpm dev:core",
+    "build": "pnpm build:shared && pnpm build:core",
     "lint": "eslint . --fix --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0 --cache",
     "lint:fix": "pnpm run lint --fix",
     "format": "prettier --write --cache .",
@@ -34,6 +41,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "tsup": "^6.4.0",
     "typescript": "^4.8.4",
     "vitepress": "1.0.0-alpha.26",
     "vitest": "^0.24.5"
