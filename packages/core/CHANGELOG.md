@@ -1,5 +1,14 @@
 # @velvet-tool/core
 
+## 2.0.3-alpha.5
+
+### Patch Changes
+
+- 2222
+
+- Updated dependencies []:
+  - @velvet-tool/shared@2.0.3-alpha.5
+
 ## 2.0.3
 
 ### Patch Changes
