@@ -1,5 +1,53 @@
 # @velvet-tool/core
 
+## 2.0.3
+
+### Patch Changes
+
+- 这是第二个测试
+
+- 这是一个测试的版本
+
+## 2.0.2
+
+### Patch Changes
+
+- test 发布 33333
+
+- test 发布 222222
+
+## 2.0.2-alpha.1
+
+### Patch Changes
+
+- test 发布 33333
+
+## 2.0.2-alpha.0
+
+### Patch Changes
+
+- test 发布 222222
+
+## 2.0.1
+
+### Patch Changes
+
+- test 发布 111111
+
+- 这是一个测试包
+
+## 2.0.1-alpha.1
+
+### Patch Changes
+
+- test 发布 111111
+
+## 2.0.1-alpha.0
+
+### Patch Changes
+
+- 这是一个测试包
+
 ## 2.0.0
 
 ### Major Changes
