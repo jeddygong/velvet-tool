@@ -1,5 +1,30 @@
 # @velvet-tool/core
 
+## 2.0.0
+
+### Major Changes
+
+- test changeset
+
+### Patch Changes
+
+- test 2
+
+- Updated dependencies []:
+  - @velvet-tool/shared@1.0.5
+
+## 2.0.0-alpha.3
+
+### Patch Changes
+
+- test 2
+
+## 2.0.0-alpha.2
+
+### Major Changes
+
+- test changeset
+
 ## 1.0.5
 
 ### Patch Changes
