@@ -1,5 +1,11 @@
 # @velvet-tool/shared
 
+## 2.0.3-alpha.6
+
+### Patch Changes
+
+- 0000
+
 ## 2.0.3
 
 ### Patch Changes
