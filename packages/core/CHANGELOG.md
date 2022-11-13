@@ -1,5 +1,18 @@
 # @velvet-tool/core
 
+## 2.0.3
+
+### Patch Changes
+
+- test 222
+- 80dacb6: 测试 1111
+- 8402d1f: 0000
+- test 111
+- Updated dependencies
+- Updated dependencies [8402d1f]
+- Updated dependencies
+  - @velvet-tool/shared@2.0.3
+
 ## 2.0.3-alpha.6
 
 ### Patch Changes
