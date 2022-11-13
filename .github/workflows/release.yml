@@ -46,10 +46,10 @@ jobs:
         uses: changesets/action@v1
         # 参数配置
         with:
-          # 发布时执行什么命令，退出prerelase 模式
+          # 发布时执行什么命令，退出 prerelase 模式
           publish: pnpm release && pnpm alpha:exit
           # 先进入 prerelase 模式，消耗 changeset 文件的命令；不需要自定义可不填
-          version: pnpm alpha && pnpm changeset version
+          version: pnpm alpha && pnpm vp
           # 提交的信息是什么；如果有 commitlint 验证，需要更改。
           commit: "chore: version packages"
         # 此步骤的环境变量，下一步讲解
