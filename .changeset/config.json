@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "https://github.com/jeddygong/velvet-tool" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "jeddygong/velvet-tool" }],
   "commit": false,
   "fixed": [],
   "linked": [],
