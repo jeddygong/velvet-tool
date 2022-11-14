@@ -1,0 +1,43 @@
+name: CI
+# Event设置为main分支的pull request事件，
+on:
+  push:
+    branches: main
+jobs:
+  # 只需要定义一个job并命名为CI
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取项目代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      # 给当前环境下载node
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      # https://github.com/pnpm/action-setup
+      # 安装 pnpm
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7.x
+
+      # https://pnpm.io/zh/cli/install#--frozen-lockfile
+      # 如果缓存没有命中，安装依赖
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile --ignore-scripts
+
+      # 运行代码扫描
+      - name: Running Eslint
+        # 通过前面章节定义的命令行执行代码扫描
+        run: pnpm lint
+      # 运行自动化测试
+      - name: Running Test
+        # 通过前面章节定义的命令行执行自动化测试
+        run: pnpm test
+      # 运行自动化测试覆盖率
+      - name: Running Coverage
+        # 通过前面章节定义的命令行执行自动化测试
+        run: pnpm coverage
