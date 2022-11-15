@@ -1,5 +1,14 @@
 # @velvet-tool/core
 
+## 2.0.3-alpha.9
+
+### Patch Changes
+
+- [`ba5b1fa`](https://github.com/jeddygong/velvet-tool/commit/ba5b1fa9ee90e1ea644a9a09bf6eda1857df11e5) Thanks [@jeddygong](https://github.com/jeddygong)! - test22
+
+- Updated dependencies [[`ba5b1fa`](https://github.com/jeddygong/velvet-tool/commit/ba5b1fa9ee90e1ea644a9a09bf6eda1857df11e5)]:
+  - @velvet-tool/shared@2.0.3-alpha.9
+
 ## 2.0.3-alpha.8
 
 ### Patch Changes
