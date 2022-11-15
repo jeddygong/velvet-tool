@@ -1,5 +1,20 @@
 # @velvet-tool/core
 
+## 2.0.3
+
+### Patch Changes
+
+- [`f31e65a`](https://github.com/jeddygong/velvet-tool/commit/f31e65a9b79c85e819eec81d328230c8bcac7afd) Thanks [@jeddygong](https://github.com/jeddygong)! - test23
+
+- [`ba5b1fa`](https://github.com/jeddygong/velvet-tool/commit/ba5b1fa9ee90e1ea644a9a09bf6eda1857df11e5) Thanks [@jeddygong](https://github.com/jeddygong)! - test22
+
+- [`aabaf48`](https://github.com/jeddygong/velvet-tool/commit/aabaf486a7c689f353d8b22d6d64de62659abe85) Thanks [@jeddygong](https://github.com/jeddygong)! - test1
+
+- [`fe537db`](https://github.com/jeddygong/velvet-tool/commit/fe537db8ff415bfac3f4d7b78345ab19582a597e) Thanks [@jeddygong](https://github.com/jeddygong)! - test222
+
+- Updated dependencies [[`f31e65a`](https://github.com/jeddygong/velvet-tool/commit/f31e65a9b79c85e819eec81d328230c8bcac7afd), [`ba5b1fa`](https://github.com/jeddygong/velvet-tool/commit/ba5b1fa9ee90e1ea644a9a09bf6eda1857df11e5), [`aabaf48`](https://github.com/jeddygong/velvet-tool/commit/aabaf486a7c689f353d8b22d6d64de62659abe85)]:
+  - @velvet-tool/shared@2.0.3
+
 ## 2.0.3-alpha.9
 
 ### Patch Changes
