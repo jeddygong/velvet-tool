@@ -18,3 +18,4 @@ export const test16 = 'test16';
 export const test17 = 'test17';
 export const test19 = 'test19';
 export const test20 = 'test20';
+export const test22 = 'test22';
